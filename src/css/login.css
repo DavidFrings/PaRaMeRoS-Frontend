@@ -1,0 +1,163 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1c1f1f;
+    font: 300 1rem/1.5 Helvetica Neue, sans-serif;
+}
+.login form {
+    box-shadow: 0 0 250px #000;
+    padding: 3rem 2rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.login form img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+.login form h2 {
+    color: #519975;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 2.75em;
+    margin-bottom: 1rem;
+}
+.error_msg {
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    margin-bottom: 2rem;
+    font-size: 14px;
+    background-color: #f34646;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+.inputBox {
+    position: relative;
+    width: 300px;
+    margin-bottom: 1.3rem;
+}
+#toggle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    fill: #519975;
+    width: 30px;
+    background-size: cover;
+    cursor: pointer;
+    transition: 1s;
+}
+#toggle.hide {
+    width: 30px;
+}
+.inputBox input[type="text"],
+.inputBox input[type="password"],
+.inputBox input[type="submit"] {
+    position: relative;
+    width: 100%;
+    padding: 0.5rem 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #696969;
+    outline: none;
+    color: #519975;
+    font-size: 1em;
+}
+.inputBox input:-webkit-autofill,
+.inputBox textarea:-webkit-autofill,
+.inputBox select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #1c1f1f inset !important;
+    -webkit-text-fill-color: #519975 !important;
+    font-size: 1em;
+}
+.inputBox label.text {
+    position: absolute;
+    left: 0;
+    padding: 0.5rem 0;
+    pointer-events: none;
+    color: #696969;
+    text-transform: uppercase;
+}
+.inputBox label.text span {
+    position: relative;
+    display: inline-flex;
+    letter-spacing: 0.025em;
+    transition: 0.2s ease-in-out;
+}
+.inputBox input[type="text"]:focus ~ label span,
+.inputBox input[type="text"]:valid ~ label span,
+.inputBox input[type="password"]:focus ~ label span,
+.inputBox input[type="password"]:valid ~ label span {
+    color: #519975;
+    letter-spacing: 0.05em;
+    transform: translateY(-22.5px);
+}
+.inputBox input[type="text"]:focus,
+.inputBox input[type="text"]:valid,
+.inputBox input[type="password"]:focus,
+.inputBox input[type="password"]:valid {
+    border-bottom: 1px solid #519975;
+}
+.inputBox input[type="submit"] {
+    position: relative;
+    background-image: linear-gradient(160deg, #8ceabb 0%, #378f7b 100%);
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.15em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 6rem;
+    border-radius: 999px;
+}
+.inputBox input[type="submit"]:hover {
+    letter-spacing: 0.15em;
+}
+.inputBox input[type="checkbox"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    vertical-align:middle;
+}
+.box {
+    vertical-align:middle;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    border-radius: 12px;
+    cursor: pointer;
+    transform: translate(-120%, 1.5px);
+    padding: 1.6px;
+    background: linear-gradient(to bottom, #1c1f1f 0%, #1c1f1f 100%), linear-gradient(to bottom, #378f7b 0%, #378f7b 100%);
+    background-clip: content-box, padding-box;
+}
+#priv label {
+    color: #519975;
+}
+#priv input:checked ~ .box {
+    background: linear-gradient(to bottom, #519975 0%, #519975 100%), linear-gradient(to bottom, #378f7b 0%, #378f7b 100%);;
+}
+#priv label a {
+    color: #378f7b;
+}
+#priv label a:hover {
+    color: #8ceabb;
+}
+.login form p {
+    color: #519975;
+}
+.login form p a {
+    color: #519975;
+    font-weight: 500;
+}

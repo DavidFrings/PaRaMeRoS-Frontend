@@ -1,0 +1,145 @@
+.navbar0 {
+    background-image: url("../media/background.png");
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.navbar1 {
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.navbar2 {
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.navbar0 video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.navbar0 header,
+.navbar1 header,
+.navbar2 header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+    background-color: rgba(28, 31, 31, 0.85);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+
+}
+.navbar3 header {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+.navbar0 header .logo,
+.navbar1 header .logo,
+.navbar2 header .logo {
+    display: inline-block;
+}
+.navbar0 header .logo h1,
+.navbar1 header .logo h1,
+.navbar2 header .logo h1 {
+    color: var(--background0);
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.navbar0 header .logo img,
+.navbar1 header .logo img,
+.navbar2 header .logo img {
+    width: 75px;
+    height: 75px;
+    border-radius: 20px;
+}
+.nav0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 1.2vw;
+    margin: 0;
+}
+.nav0 li {
+    list-style: none;
+}
+.nav0 li a,
+.nav0 li .a {
+    position: relative;
+    text-decoration: none;
+    padding: 6px 15px;
+    color: var(--background0);
+    border-radius: 20vw;
+    background: transparent;
+    border: none;
+}
+.nav0 li a:hover,
+.nav0 li a#active,
+.nav0 li .a:hover,
+.nav0 li .a#active {
+    background: #112434;
+    color: var(--background0);
+}
+.main0 {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    justify-content: center;
+    color: var(--background0);
+    position: absolute;
+    text-align: center;
+    justify-self: center;
+    pointer-events: auto;
+    align-items: center;
+}
+.main0 div {
+    position: relative;
+    top: 35%;
+}
+.main0 div h2{
+    font-weight: 100;
+    font-size: 4.5vw;
+    animation: 1.5s ease-out 0s 1 fadeIn;
+}
+.main0 div h1 {
+    font-weight: 800;
+    font-size: 8vw;
+    line-height: 0.88;
+    animation: 3.5s ease-out 0s 1 fadeIn;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

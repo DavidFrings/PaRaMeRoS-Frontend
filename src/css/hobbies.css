@@ -1,0 +1,90 @@
+.infos2 {
+    min-height: 90vh;
+}
+.file,
+.edit,
+.delete {
+    display: none;
+}
+.title::placeholder,
+.desc::placeholder {
+    color: rgb(189, 185, 185);
+    font-weight: 400;
+}
+.title:focus,
+.desc:focus {
+    outline: none;
+}
+.file-img {
+    transform: translateY(-20%);
+}
+.file-img svg,
+.delete-post svg,
+.edit-post svg {
+    height: 28px;
+    width: 28px;
+    margin-bottom: 0.2rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.submit {
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80px;
+}
+.title {
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    margin-left: 10px;
+    background-color: transparent;
+}
+.desc {
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+    overflow: hidden;
+    max-height: 65vh;
+}
+.s {
+    max-height: none;
+    overflow: auto;
+}
+.s::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 100px;
+}
+
+.s::-webkit-scrollbar-thumb {
+    background-color: rgba(30, 30, 30, 0.2);
+    border-radius: 100px;
+}
+
+.s::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+}
+.author {
+    margin-bottom: 0;
+}
+.c.desc {
+    width: 88vw;
+}
+.c.title {
+    width: 70vw;
+}
+.email {
+    background-color: #8ceabb;
+}

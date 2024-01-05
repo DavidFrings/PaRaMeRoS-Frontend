@@ -1,0 +1,203 @@
+.ter {
+    overflow: hidden;
+    max-height: 100vh;
+}
+.terminal {
+    background: #1c1f1f;
+    width: 100vw;
+    padding: 12px 0 0 0;
+    margin-top: -20px;
+    font-family: 'Roboto Mono', monospace;
+}
+.terminal {
+    position: relative;
+    margin: 0;
+    overflow-x: hidden;
+    top: 0;
+    height: 90.743vh;
+}
+.terminal::-webkit-scrollbar-track {
+    background-color: #1e1e1e;
+}
+
+.terminal::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 100px;
+}
+
+.terminal::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+}
+.input-form {
+    width: 100%;
+    background: #1c1f1f;
+    display: block;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0 0 4px 4px;
+    color: white;
+    padding: 18px;
+    font-size: 14px;
+    outline: none;
+    font-family: 'Roboto Mono', monospace;
+}
+.input-form {
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    height: 9.257vh;
+}
+.input-form input[type=text] {
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    cursor: text;
+    font-size: 1.3vw;
+    color: #519975;
+    padding-left: 15px;
+    font-family: cursor, monospace;
+}
+.input-div {
+    position: fixed;
+    background-color: #1c1f1f;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.input-div .span,
+.Text div {
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    cursor: text;
+    font-size: 1.3vw;
+    color: #519975;
+    font-family: cursor, monospace;
+}
+.input-div span {
+    top: 50%;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    cursor: text;
+    font-size: 1.3vw;
+    font-family: cursor, monospace;
+}
+.input-lable {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.input {
+    width: 100%;
+    background: #1c1f1f;
+    display: block;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0 0 4px 4px;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    font-family: 'Roboto Mono', monospace;
+}
+.Text {
+    margin: 0;
+    color: #519975;
+    font-size: 1.3vw;
+    padding: 15px;
+    font-family: cursor, monospace;
+    line-height: normal;
+}
+.Text p {
+    margin: 0;
+    font-family: cursor, monospace;
+}
+#output {
+    width: 100vw;
+    height: 100vh;
+    padding: 0 12px;
+    resize: none;
+    border: none;
+    font-size: 14px;
+    line-height: 28px;
+    display: block;
+    color: rgba(255, 255, 255, 0.9);
+}
+#output a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+}
+#output a:hover {
+    text-decoration: underline;
+}
+
+
+
+.ASCii {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #519975;
+}
+.info-p {
+    margin: 0;
+    font-family: cursor, monospace;
+    letter-spacing: 0.05em;
+    font-size: 1.5vw;
+    line-height: normal;
+}
+.info-p-2 {
+    font-family: cursor, monospace;
+    margin-bottom: 1rem;
+    letter-spacing: 0.05em;
+    font-size: 1.5vw;
+    line-height: normal;
+}
+.info-p-3 {
+    margin: 0;
+    font-family: cursor, monospace;
+    letter-spacing: 0.05em;
+    font-size: 0.25vw;
+    line-height: normal;
+}
+.return {
+    margin: 0;
+    display: inline-block;
+    color: #519975;
+    font-size: 1.3vw;
+    padding: 15px;
+    font-family: cursor, monospace;
+    line-height: normal;
+}
+.userEnteredText {
+    margin: 0;
+    display: inline-block;
+    color: #73ABAD;
+    text-shadow: 0 0 5px #73ABAD;
+    font-size: 1.3vw;
+    padding: 15px;
+    font-family: cursor, monospace;
+    line-height: normal;
+}
+.color2 {
+    color: #B89076;
+}
+.command {
+    color: #73ABAD;
+    text-shadow: 0 0 5px #73ABAD;
+}
+.info-p::selection,
+.info-p-2::selection,
+.info-p-3::selection,
+#output::selection,
+.color2::selection,
+.command::selection,
+.input::selection,
+.input-div .span::selection {
+    color: #211830;
+    background-color: #519975;
+}

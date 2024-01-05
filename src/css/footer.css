@@ -1,0 +1,147 @@
+.space0 {
+    height: 80px;
+    width: 100%;
+    background-color: var(--background0);
+}
+.space1 {
+    height: 100px;
+    width: 100%;
+    background-color: #000;
+}
+.space2 {
+    height: 100px;
+    width: 100%;
+    background-color: #1c1f1f;
+}
+footer {
+    position: relative;
+    width: 100%;
+    background: var(--background1);
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    padding: 0;
+}
+footer .menu li {
+    list-style: none;
+}
+footer .menu li a {
+    font-size: 1.2em;
+    color: var(--background0);
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+}
+footer p {
+    color: var(--background0);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+footer p a:hover {
+    opacity: 1;
+}
+footer p a,
+footer #p {
+    font-size: 0.9em;
+    color: var(--background0);
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+}
+footer #notice {
+    font-size: 0.3em;
+    color: var(--background0);
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+}
+footer .menu li a:hover {
+    opacity: 1;
+}
+footer .wave0,
+footer .wave1,
+footer .wave2 {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../media/wave.png);
+    background-size: 1000px 100px;
+}
+footer .wave1 {
+    background-color: #000;
+}
+footer .wave2 {
+    background-color: #1c1f1f;
+}
+footer .wave0#wave0,
+footer .wave1#wave0,
+footer .wave2#wave0 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 6s linear infinite;
+}
+footer .wave0#wave1,
+footer .wave1#wave1,
+footer .wave2#wave1 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave2 6s linear infinite;
+}
+footer .wave0#wave2,
+footer .wave1#wave2,
+footer .wave2#wave2 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave 5s linear infinite;
+}
+footer .wave0#wave3,
+footer .wave1#wave3,
+footer .wave2#wave3 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animateWave2 5s linear infinite;
+}
+
+@keyframes animateWave {
+    0% {
+        background-position-x: 1000px;
+    }
+
+    100% {
+        background-position-x: 0;
+    }
+}
+@keyframes animateWave2 {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: 1000px;
+    }
+}
