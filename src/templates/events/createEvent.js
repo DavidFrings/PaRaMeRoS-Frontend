@@ -59,13 +59,13 @@ const createEvent = () => {
                         </label>
                         <input id="file" className="file" type="file" onChange={(e) => setFile(e.target.files[0])}/>
                         <input className="title h3 c" placeholder="Title" type="text" autoFocus={true} onChange={(e) => setTitle(e.target.value)}/>
-                        <input className="desc c" placeholder="Tell your story..." type="text" autoFocus={true} onChange={(e) => setDesc(e.target.value)}/>
+                        <textarea className="desc c" id="textarea" placeholder="Tell your story..." autoFocus={true} onChange={(e) => setDesc(e.target.value)}/>
                         <button className='submit' type='submit'>Publish</button>
                     </form>
+                    {file && (
+                        <img className='writeImg' src={URL.createObjectURL(file)} alt='' />
+                    )}
                 </div>
-                {file && (
-                    <img className='writeImg' src={URL.createObjectURL(file)} alt='' />
-                )}
             </div>
         </div>
     );

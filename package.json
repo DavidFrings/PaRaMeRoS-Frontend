@@ -4,7 +4,8 @@
   "description": "This is the frontend from the Official PaRaMeRoS Website",
   "main": "src/index.js",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build --base=./"
   },
   "repository": {
     "type": "git",

@@ -56,11 +56,16 @@
     border: none;
     background-color: transparent;
     overflow: hidden;
-    max-height: 65vh;
+    max-height: 44.5vh;
+    text-overflow: ellipsis;
+}
+.desc#textarea {
+    height: 60vh;
 }
 .s {
     max-height: none;
     overflow: auto;
+    word-wrap: break-word;
 }
 .s::-webkit-scrollbar-track {
     background-color: transparent;
@@ -76,6 +81,20 @@
     height: 6px;
     width: 6px;
 }
+.desc::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 100px;
+}
+
+.desc::-webkit-scrollbar-thumb {
+    background-color: rgba(30, 30, 30, 0.2);
+    border-radius: 100px;
+}
+
+.desc::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+}
 .author {
     margin-bottom: 0;
 }
@@ -85,6 +104,77 @@
 .c.title {
     width: 70vw;
 }
-.email {
-    background-color: #8ceabb;
+.email textarea {
+    font-family: inherit;
+}
+
+.email label {
+    display: block;
+    font-size: 0.8em;
+    padding-left: 3px;
+}
+
+.email input,
+.email textarea {
+    width: 100%;
+    font-size: 1.1em;
+    padding: 4px;
+    font-family: inherit;
+    font-weight: lighter;
+    border-bottom: 1px solid #000;
+    outline: none;
+    background-color: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+}
+
+.email input:focus,
+.email textarea:focus {
+    border-bottom: 1px solid #519975;
+}
+
+.email input[type=submit] {
+    background-image: linear-gradient(160deg, #8ceabb 0%, #378f7b 100%);
+    cursor: pointer;
+    border: none;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    border-radius: 999px;
+    transition: 0.5s;
+    color: #fff;
+    font-weight: 600;
+}
+
+.email input[type=submit]:hover {
+    letter-spacing: 0.16em;
+}
+.email textarea::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.email textarea::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 100px;
+}
+
+.email textarea::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+}
+.l {
+    width: 100%;
+}
+.l p {
+    font-size: 1.35em;
+}
+.writeImg {
+    margin-top: 20px;
+}
+.createEvent .infos .info {
+    display: block;
+}
+.createEvent .infos .info img,
+.createEvent .infos .info video {
+    width: 100%;
 }

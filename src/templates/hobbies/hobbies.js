@@ -27,13 +27,16 @@ const hobbies = () => {
                 <br />
                 <br />
                 <div className="info">
-                    <div className="content">
+                    <div className="content l">
                         <h3>Hobbys hinzufügen?</h3>
-                        <p>Mail uns</p>
-                        <form action='https://formsubmit.co/PaRaMeRoS@gmx.de' className="email" method='POST'>
-                            <input type='text' name='name' required placeholder='Kontakt Name'/>
-                            <input type="email" name="email" placeholder="Email Address" required/>
-                            <textarea name='message' required placeholder='Dein Hobby'/>
+                        <p>Mail uns!</p>
+                        <form action='https://formsubmit.co/PaRaMeRoS@mein.gmx' className="email" method='POST'>
+                            <label htmlFor="name">Name:</label>
+                            <input type='text' name='name' required/>
+                            <label htmlFor="email">Deine Email:</label>
+                            <input type="email" name="email" required/>
+                            <label htmlFor="message">Dein Hobby:</label>
+                            <textarea name='message' required placeholder=''/>
                             <input type='submit' value='Senden'/>
                         </form>
                     </div>
