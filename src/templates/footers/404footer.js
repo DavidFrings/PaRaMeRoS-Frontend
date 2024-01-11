@@ -28,10 +28,10 @@ const footer = () => {
                         Log In
                     </Link></li>
                 </ul>
-                <p>&#169;2024 PaRaMeRoS&#185;</p>
+                <p>&#169;2024 PaRaMeRoS{/*&#185;*/}</p>
                 <p id="p"><Link to="/impressum">Impressum</Link> <Link to="/datenschutz">Datenschutz</Link></p>
                 <br />
-                <p id="notice">&#185;David Frings & Maximilian Gründinger</p>
+                {/*<p id="notice">&#185;David Frings & Maximilian Gründinger</p>*/}
             </footer>
         </div>
     );

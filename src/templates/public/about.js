@@ -86,7 +86,7 @@ const about = () => {
                         <p>
                             Trotz globaler Herausforderungen im Jahr 2020/21 ließen sich die PaRaMeRoS nicht
                             entmutigen.
-                            [Name13], [Name14], und [Name15] meisterten Herausforderungen und sammelten wertvolle
+                            Lena, Rumina, Simeon & Tobias meisterten Herausforderungen und sammelten wertvolle
                             Erfahrungen,
                             auch wenn keine spezifischen Preise gewonnen wurden.
                         </p>
@@ -102,7 +102,7 @@ const about = () => {
                             2021/22: Triumph und Herausforderungen
                         </h3>
                         <p>
-                            In der vorletzten Saison erzielten [Name13], [Name14], und [Name15] herausragende Triumphe.
+                            In der vorletzten Saison erzielten Lena, Rumina, Simeon & Tobias herausragende Triumphe.
                             Mit ihrer beeindruckenden Leistung gewann das Team den <b>Hauptpreis in
                             Roboter-Design</b> sowie den <b>2.
                             Platz in ...</b> und den <b>3. Platz in Robot-Game</b>.
@@ -126,7 +126,7 @@ const about = () => {
                             2022/23: Aktuelles Team und zukünftige Herausforderungen
                         </h3>
                         <p>
-                            In dieser Saison präsentieren sich Maximilian Gründinger, David Frings, Carl, Alex, Anna,
+                            In dieser Saison präsentieren sich Maximilian, David, Carl, Alex, Anna,
                             Maria, Livia, Noah & Sebastian
                             als das aktuelle Team der PaRaMeRoS. Gemeinsam setzen wir die Tradition der Exzellenz fort
                             und nehmen die Herausforderungen
@@ -146,7 +146,7 @@ const about = () => {
                         </h3>
                         <p>
                             Wir freuen uns darauf, euch bald die spannenden Entwicklungen und Erfolge unseres aktuellen Teams
-                            Maximilian Gründinger, David Frings, Carl, Alex, Anna, Maria, Livia, Nathan, Noah & Sebastian
+                            Maximilian, David, Carl, Alex, Anna, Maria, Livia, Nathan, Noah & Sebastian
                             in der FIRST Lego League Saison 2023/24 vorstellen zu können. Stay tuned!
                         </p>
                     </div>

@@ -56,7 +56,7 @@ const privacyPolicies = () => {
                 Wolfratshauserstr. 30, 82049 Pullach im Isartal</p>
 
                 <p>Telefon: 089/74426-182<br/>
-                    E-Mail: info@prmrs.de</p>
+                    E-Mail: parameros@mein.gmx</p>
                 <p>Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person, die allein oder gemeinsam mit
                     anderen &uuml;ber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.&nbsp;B.
                     Namen, E-Mail-Adressen o. &Auml;.) entscheidet.</p>
