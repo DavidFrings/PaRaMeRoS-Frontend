@@ -65,11 +65,11 @@ const home = () => {
                 </div>
                 <div className="info">
                     <div className="content">
-                        <h3>
+                        <h3 id="pro">
                             Unser eigenes Betriebssystem & eigene Programmiersprache
                         </h3>
                         <p>
-                            Wir, als die Entwickler konzipierten diese Programmiersprache speziell für den Spike Prime, um die Verwendung von Micro Python zu vereinfachen und zu optimieren. Durch gezielte Verbesserungen und Anpassungen ermöglicht sie eine effizientere Programmierung für den Spike Prime, was insbesondere für Schüler und Lehrer von großem Vorteil ist, da sie unabhängig von Lego&#9415; den Hub <b>vollständig</b> ausschöpfen können. Die Sprache bietet eine benutzerfreundliche Syntax und umfasst Funktionen, die speziell auf die Bedürfnisse des Spike Prime zugeschnitten sind. Dadurch wird das Erstellen von Programmen erleichtert und die Lernkurve für Anfänger verkürzt. Darüber hinaus trägt die Entwicklung dieser Sprache dazu bei, die Möglichkeiten des Spike Prime voll auszuschöpfen und seine Leistungsfähigkeit zu maximieren, was zu einer verbesserten Erfahrung bei der Robotik Programmierung führt.<br/><br/>
+                            Wir, als die Entwickler konzipierten diese Programmiersprache speziell für den Spike Prime, um die Verwendung von Micro Python zu vereinfachen und zu optimieren. Durch gezielte Verbesserungen und Anpassungen ermöglicht sie eine effizientere Programmierung für den Spike Prime, was insbesondere für Schüler und Lehrer von großem Vorteil ist, da sie unabhängig von Lego&#9415; den Hub <b>vollständig</b> ausschöpfen kann. Die Sprache bietet eine benutzerfreundliche Syntax und umfasst Funktionen, die speziell auf die Bedürfnisse des Spike Prime zugeschnitten sind. Dadurch wird das Erstellen von Programmen erleichtert und die Lernkurve für Anfänger verkürzt. Darüber hinaus trägt die Entwicklung dieser Sprache dazu bei, die Möglichkeiten des Spike Prime voll auszuschöpfen und seine Leistungsfähigkeit zu maximieren, was zu einer verbesserten Erfahrung bei der Robotik Programmierung führt.<br/><br/>
                             <Link to="https://github.com/Spike-Prime-Pro">Link zum Code</Link>
                         </p>
                     </div>
