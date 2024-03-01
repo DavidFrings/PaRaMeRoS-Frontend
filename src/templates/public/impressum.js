@@ -13,6 +13,7 @@ const impressum = () => {
             <br />
             <br />
             <br />
+	    <br />
             <div id="impressum">
                 <div id="impressum"></div>
                 <h1>Impressum</h1>
@@ -24,7 +25,11 @@ const impressum = () => {
 
                 <p><strong>Vertreten durch:</strong><br/>
                     Markus v. Essen<br/>
-                    First Lego League Team PaRaMeRoS</p>
+                    First Lego League Team PaRaMeRoS
+	        </p>
+
+		<br />
+		<br />
 
                 <h2>Kontakt</h2>
                 <p>Telefon: 089/74426-182<br/>

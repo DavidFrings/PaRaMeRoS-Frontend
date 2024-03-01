@@ -36,7 +36,7 @@ const navbar = () => {
                     <h1>PaRaMeRoS</h1>
                 </div>
             </div>
-            <video src={BackgroundVideo} autoPlay muted/>
+            <video src={BackgroundVideo} autoPlay muted playsinline/>
         </div>
     );
 }

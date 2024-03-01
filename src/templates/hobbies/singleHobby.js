@@ -13,11 +13,12 @@ const hobby = () => {
     const [title,      setTitle]      = useState('');
     const [desc,       setDesc]       = useState('');
     const [updateMode, setUpdateMode] = useState(false);
+    let   name = null;
 
     if (localStorage.getItem("token")) {
-        const name = localStorage.getItem("token").split('?')[0];
+        name = localStorage.getItem("token").split('?')[0];
     } else {
-        const name = null;
+        name = null;
     }
     const id   = useLocation().pathname.split("/")[2];
 

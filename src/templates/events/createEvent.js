@@ -30,7 +30,7 @@ const createEvent = () => {
             newPost.photo = filename;
 
             try {
-                axios.post(process.env.REACT_APP_API + "upload?" + token, data);
+                await axios.post(process.env.REACT_APP_API + "upload?" + token, data);
             } catch (err) {
                 console.log("error");
             }
