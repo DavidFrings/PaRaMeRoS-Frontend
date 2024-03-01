@@ -52,13 +52,13 @@ const about = () => {
                             PaRaMeRoS Team. Als engagierter Coach und erfahrener Experte in der Welt der 
                             Robotik leitet er nicht nur technische Fähigkeiten an, sondern fördert auch 
                             Teamarbeit und Leidenschaft.<br/>
-                            Die Unterstützung unseres Co-Coaches, Frau NAME, ist entscheidend für unseren Erfolg. 
+                            Die Unterstützung unseres Co-Coaches, Frau Knauke, ist entscheidend für unseren Erfolg.
                             Sie arbeitet eng mit Herr von Essen zusammen, um das Team zu leiten und bei der 
                             Entwicklung von uns Schülern und als Team zu helfen. Sie trägt dazu bei, dass das 
                             PaRaMeRoS Team kontinuierlich wachsen und sich verbessern kann.<br/>
-                            Herr von Essen und Frau NAME bilden ein unschlagbares Team, das nicht nur Technologie 
+                            Herr von Essen und Frau Knauke bilden ein unschlagbares Team, das nicht nur Technologie
                             vermittelt, sondern auch die persönliche Entwicklung jedes Einzelnen fördert. Wir 
-                            danken Herr von Essen und Frau NAME für ihre großartige Arbeit und ihre bedeutende 
+                            danken Herr von Essen und Frau Knauke für ihre großartige Arbeit und ihre bedeutende
                             Rolle in der Erfolgsgeschichte des Teams PaRaMeRoS.
                         </p>
                     </div>
