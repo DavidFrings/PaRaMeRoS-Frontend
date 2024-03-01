@@ -26,7 +26,7 @@ const hobbies = () => {
                 <br />
                 <br />
                 <br />
-                <div className="info">
+                <div className="info info1">
                     <div className="content l">
                         <h3>Hobbys hinzufügen?</h3>
                         <p>Mail uns!</p>
