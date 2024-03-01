@@ -60,11 +60,11 @@ p {
     font-size: 1em;
 }
 .info video{
-    width: 40%;
+    width: 100%;
     border-radius: 15px;
 }
 .info img {
-    width: 40%;
+    width: 100%;
     border-radius: 15px;
     right: 0;
     display: -webkit-box;
