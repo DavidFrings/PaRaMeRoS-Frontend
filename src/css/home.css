@@ -53,8 +53,7 @@ p {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     border-radius: 7px;
     padding: 15px;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+    grid-template-columns: 1fr 1fr
 }
 .info p {
     font-size: 1em;
@@ -62,6 +61,7 @@ p {
 .info video{
     width: 100%;
     border-radius: 15px;
+    align-self: center;
 }
 .info img {
     width: 100%;
@@ -69,6 +69,8 @@ p {
     right: 0;
     display: -webkit-box;
     margin-left: auto;
+    align-self: center;
+
 }
 .no {
     transition: none;
