@@ -1,6 +1,6 @@
 import { Link }         from "react-router-dom";
 import Logo             from "../../media/logo.png";
-import BackgroundVideo  from "../../media/intro.mov";
+import BackgroundVideo  from "../../media/intro.mp4";
 import                       "../../css/navbar.css";
 
 const navbar = () => {
