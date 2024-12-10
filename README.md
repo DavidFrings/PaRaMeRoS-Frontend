@@ -1,9 +1,5 @@
-[Frontend](https://github.com/CoolerTyp99/PaRaMeRoS-Frontend)
-===
-[Backend](https://github.com/CoolerTyp99/PaRaMeRoS-Backend)
-===
-[Python](https://github.com/PaRaMeRoS/PaRaMeRoS-Python)
-===
+## The frontend of PaRaMeRoS.net is built with the MERN stack (MongoDB, Express.js, React, Node.js) to provide an interactive and modern user experience. It informs users about the FLL PaRaMeRoS team, offering an intuitive interface to explore relevant information and promoting collaboration and resource-sharing.
 
-Coming Soon
-===
+### [Frontend](https://github.com/CoolerTyp99/PaRaMeRoS-Frontend)
+### [Backend](https://github.com/CoolerTyp99/PaRaMeRoS-Backend)
+### [Python](https://github.com/PaRaMeRoS/PaRaMeRoS-Python)
